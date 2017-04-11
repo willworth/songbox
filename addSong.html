@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Add Song to SongBox</title>
+    <title>Songbox</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,22 +28,15 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="addsong.html">Add Song</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
+          
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -51,72 +44,62 @@
         </form>
       </div>
     </nav>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <!--<h1 class="display-3">Fluid jumbotron</h1>-->
+    <p class="lead">This is a modified jumbotron that occupies
+                    the entire horizontal space of its parent.</p>
+  </div>
+</div>
 
-    <div class="container">
-    
+<div class="container text-center">
+<div class="alert alert-info">
+  <strong>Options!</strong> Only the song title is obligatory.
+</div>
+</div>
+<div class="container">
+  
+  <form>
+  
 
+<div class="input-group">
+    <span class="input-group-addon">Song Title</span>
+    <input id="songTitle" type="text" class="form-control" name="songTitle" placeholder="">
+  </div>
+  <br>
 
+<div class="input-group">
+    <span class="input-group-addon">Artist</span>
+    <input id="artist" type="text" class="form-control" name="artist" placeholder="(Leave this blank if it´s your own song)">
+  </div>
+<div class="checkbox">
+    <label><input type="checkbox"> This is one of my own songs!</label>
+  </div>
 
-
-
-
-
-
-
-<!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-3">Song Box</h1>
-        <p>Songbox is designed to store your lyrics, notes, and musical ideas.<br>
-       Songbox is for songwriters, song singers, song savers...</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a></p>
-       <p> <button type="button" class="btn btn-success">Success</button> </p>
-      </div>
-    </div>
-
-    <div class="container">
-     
-      <!-- Example row of columns -->
-
-
-
-<div class="row">
-        <div class="col-md-4">
-          <p class=lead>Song Box is built and shared by <a href="http://willworth.co.uk">Will Worth.</a>
-          All bug reports, feature suggestions, and comments gratefully received.</p>
-        </div>
-        <div class="col-md-4">
-            <p class=lead>Song Box is designed to store your lyrics, notes, and musical ideas.</p>
-          <p class=lead>Organise your original material with supporting notes, as well as all
-          those covers you´ve been trying to keep track of.</p>
-          
-        </div>
-        <div class="col-md-4">
-          <p class=lead>Song Box is <a href="https://github.com/willworth/songbox">open source</a>,
-         so you can  tweak it as you please.</p></div>
-      </div>
-    </div>
-
+  <div class="form-group">
+  <label for="lyrics">lyrics:</label>
+  <textarea class="form-control" rows="6" id="lyrics"></textarea>
+</div>
+<div class="input-group">
+    <span class="input-group-addon">Text</span>
+    <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
+  </div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
 
 
 
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
+
+
+
+
+
+
+
+
+
 
       <hr>
 
