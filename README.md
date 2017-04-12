@@ -2,7 +2,7 @@
 :musical_score::musical_keyboard::musical_score::musical_keyboard::musical_score:
 
 
-## Songbox is for songwriter, song singers, song savers...
+## Songbox is for songwriters, song singers, song savers...
 
 Songbox is a simple app to store and organise your songs.
 

@@ -4,3 +4,47 @@ pages required  all songs  add song random song
 
 (BOXES   LOGIN  SIGN UP   DEMO)
 oauth
+
+
+
+
+<!-- Custom css that makes this example work like it does: -->
+<style type="text/css" scoped>
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+</style>
+
+<!-- Actual scrollspy markup: -->
+<nav id="navbar-example2" class="navbar navbar-light bg-faded">
+  <h3 class="navbar-brand">Project Name</h3>
+  <ul class="nav nav-pills">
+    <li class="nav-item"><a class="nav-link" href="#verse1">Verse 1</a></li>
+    <li class="nav-item"><a class="nav-link" href="#verse2">Verse 2</a></li>
+  </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
+  <h4 id="verse1">Verse 1</h4>
+  <p>May <br> the <br> gods <br> forgive <br> me.</p>
+  <h4 id="verse2">Verse 2</h4>
+  <p>For <br> this <br> rampant <br> abuse <br> of <br> br-tags.</p>
+</div>
+
+
+
+
+
+
+
+https://v4-alpha.getbootstrap.com/components/scrollspy/#content
+
+
+
+
+
+
+
+p>Hello darkness, my old friend<br/>I&#39;ve come to talk with you again<br/>Because a vision softly creeping<br/>Left its seeds while I was sleeping<br/>And the vision that was planted in my brain<br/>Still remains<br/>Within the sound of silence<br/></p><p>In restless dreams I walked alone<br/>Narrow streets of cobblestone<br/>&#39;Neath the halo of a street lamp<br/>I turned my collar to the cold and damp<br/>When my eyes were stabbed by the flash of a neon light<br/>That split the night<br/>And touched the sound of silence<br/></p><p>And in the naked light I saw<br/>Ten thousand people, maybe more<br/>People talking without speaking<br/>People hearing without listening<br/>People writing songs that voices never share<br/>And no one dared<br/>Disturb the sound of silence<br/></p><p>&quot;Fools&quot; said I<br/>&quot;You do not know, silence like a cancer grows<br/>Hear my words that I might teach you<br/>Take my arms that I might reach you&quot;<br/>But my words like silent raindrops fell<br/>And echoed<br/>In the wells of silence<br/></p><p>And the people bowed and prayed<br/>To the neon god they made<br/>And the sign flashed out its warning<br/>In the words that it was forming<br/>And the signs said<br/>&quot;The words of the prophets are written on the subway walls<br/>And tenement halls<br/>And whisper&#39;d in the sounds of silence<br/>
