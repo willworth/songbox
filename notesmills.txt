@@ -1,0 +1,3 @@
+npm init
+npm install express --save  (the save means it goes into the pakage.json)
+create app.js

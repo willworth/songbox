@@ -8,6 +8,17 @@ oauth
 
 
 
+
+pages need to be defined around nouns. eg /songs
+
+
+
+
+
+
+
+
+
 <!-- Custom css that makes this example work like it does: -->
 <style type="text/css" scoped>
 .scrollspy-example {

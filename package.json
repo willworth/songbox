@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/willworth/songbox/issues"
   },
-  "homepage": "https://github.com/willworth/songbox#readme"
+  "homepage": "https://github.com/willworth/songbox#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
